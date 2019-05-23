@@ -1,0 +1,233 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+    font-family: Gotham-Book;
+    src: url(Gotham-Book.otf)
+}
+
+@font-face {
+    font-family: gotham-italic;
+    src: url(Gotham-BookItalic.otf)
+}
+
+@font-face {
+    font-family: chronicle;
+    src: url(Chronicle-Display-Roman.ttf);
+}
+
+@font-face {
+    font-family: chronicle-semibold;
+    src: url(chronicle-semibold.ttf);
+}
+
+#chronicle {
+    font-family: chronicle;
+}
+
+#chronicle-semibold {
+    font-family: chronicle-semibold;
+}
+
+#gotham {
+    font-family: Gotham-Book;
+}
+
+#gotham-italic {
+    font-family: gotham-italic
+}
+
+.navbar {
+    background-color: #B77676 ;
+    padding: 1% 0;
+    font-size: 1.2em;
+}
+
+.navbar-brand {
+    min-height: 55px;
+    padding: 0 15px 5px;
+}
+
+.navbar-default .navbar-nav li a {
+    color: bisque;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active {
+    color: dimgray;
+}
+
+.padding {
+    padding: 80px 0;
+}
+
+.padding img {
+    width: 100%;
+}
+
+#banner {
+    background-image: url(josefin-monstera-unsplash.jpg);
+    display: table;
+    height: 80%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.landing-text {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#ban {
+    opacity: 0.9;
+}
+
+a {
+    color: #B77676;
+    text-decoration: none;
+}
+
+a:hover {
+    color: dimgray;
+    text-decoration: none;
+}
+
+a:focus {
+    color: dimgray;
+    text-decoration: none;
+}
+/*
+
+#ban {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.7;
+}
+*/
+
+.spacing {
+/*
+    margin-left: 50px;
+    margin-right: 50px;
+*/
+    background-color: #B77676;
+    
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: $card-bg;
+  background-clip: border-box;
+  border: $card-border-width solid $card-border-color;
+  @include border-radius($card-border-radius);
+    padding: 1.2em;
+  }
+
+.card-body {
+  margin: 0;
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  font-weight: $font-weight-base;
+  line-height: $line-height-base;
+  text-decoration-color: dimgray;
+  text-align: left; 
+  background-color: bisque; 
+    padding: 0 15px 15px 15px;
+}
+
+
+.btn-primary {
+    color: #fff;
+    background-color: bisque;
+    border-color: bisque;
+    text-decoration: none;
+    border:none;
+}
+
+
+.btn-primary:hover{
+    opacity: 0.7;
+    background-color: dimgray;
+    color: #FFF;
+    text-decoration: none;
+    border-color:dimgray;
+}
+
+.btn-primary:focus {
+    background-color: dimgray;
+}
+
+
+.btn {
+    display: inline-block;
+    background-color: dimgray;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+footer {
+    width: 100%;
+    background-color: #B77676;
+    padding: 5% 5% 10% 5%;
+    color: bisque;
+}
+
+footer a:link {
+    color: bisque;
+}
+
+footer a:hover {
+    color: dimgray;
+    text-decoration: none;
+}
+
+footer a:focus {
+    color: dimgray;
+    text-decoration: none;
+}
+
+/*
+a:visited {
+    color: #E8B139
+    text-decoration: none; 
+}
+*/
+
+.fa {
+    padding: 15px;
+    font-size: 25px;
+    color: bisque;
+}
+
+.fa:hover {
+    color: dimgray;
+    text-decoration: none;
+}
+
+.fa:focus {
+    color: dimgray;
+    text-decoration: none;
+}
